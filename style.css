@@ -1,0 +1,17 @@
+
+.container {
+	width: 40%
+	margin: 20px auto 0px auto;
+}
+
+.removed {
+	color: navy blue;
+}
+
+.removed label {
+	text-decoraction : line through;
+}
+
+ul li {
+	list-style-type: none;
+}

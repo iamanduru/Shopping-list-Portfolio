@@ -1,0 +1,35 @@
+<div class="container">
+	<h2>My Shopping List</h2>
+	<div clas="input-group">
+		<input placeholder="add shopping list item"
+		type="text" class="js-new-item form-control">
+		<span class="input-group-btn">
+			<button @click="addItem" class="js-add btn btn-default"
+			type="button"> Add</button>
+		</span>
+		</div>
+		<ul>
+		 <li>
+		   <div class="checkbox">
+		     <label>
+		        <input class="js-item" name="list"
+		          type="checkbox"> Chapati flour
+		      </label>
+		      </div>
+		      </li>
+		      <li>
+		      	<div class="checkbox">
+		      		<label>
+		      			<input class="js-item" name="list"
+		      			  type="checkbox"> Coffee
+		      			</label>
+		      		</div>
+		      	</li>
+		      </ul>
+		  </div>
+		  <div class="footer">
+    <hr/>
+    <em>Change the title of your shopping list here</em>
+    <input class="js-change-title" type="text" value="My Shopping List"/>
+  </div>
+</div>
